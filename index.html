@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#FFFCF8">
+    <title id="meta-title">POP | Papelaria e Cafeteria em Osvaldo Cruz</title>
+    <meta name="description" id="meta-description" content="Papelaria e cafeteria em Osvaldo Cruz. Conheça a POP e fale com nossa equipe.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" id="og-title" content="POP | Papelaria e Cafeteria em Osvaldo Cruz">
+    <meta property="og:description" id="og-description" content="Papelaria e cafeteria em Osvaldo Cruz. Conheça a POP e fale com nossa equipe.">
+    <meta property="og:image" id="og-image" content="">
+    <meta property="og:url" id="og-url" content="">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a class="skip-link" href="#main-content">Pular para o conteúdo</a>
+    <header class="header">
+        <div class="header-container">
+            <a href="#" class="logo-link">
+                <img id="header-logo" src="" alt="Logotipo da POP Papelaria &amp; Cafeteria" style="display:none;">
+                <span id="company-name" class="company-name"></span>
+            </a>
+            <button type="button" id="mobile-menu-btn" class="mobile-menu-btn" aria-expanded="false" aria-controls="main-menu" aria-label="Abrir menu">
+                <span class="hamburger"></span>
+            </button>
+            <nav id="main-menu" class="main-menu" aria-label="Navegação principal">
+                <ul class="menu-list">
+                    <li><a href="#hero">Início</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#diferenciais">Diferenciais</a></li>
+                    <li><a href="#galeria">Galeria</a></li>
+                    <li><a href="#avaliacoes">Avaliações</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main id="main-content" tabindex="-1">
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <h1 id="hero-title"></h1>
+                <p id="hero-text"></p>
+                <a id="hero-cta" href="#" class="btn-primary hero-cta" target="_blank" rel="noopener noreferrer" style="display:none;"></a>
+            </div>
+            <div class="hero-image-container">
+                <img id="hero-img" src="" alt="Imagem Principal" style="display:none;">
+            </div>
+        </section>
+        <section id="servicos" class="servicos-section" style="display:none;">
+            <div class="container"><h2>Nossos Serviços</h2><div id="servicos-grid" class="servicos-grid"></div></div>
+        </section>
+        <section id="diferenciais" class="diferenciais-section" style="display:none;">
+            <div class="container"><h2>Por que nos escolher?</h2><div id="diferenciais-grid" class="diferenciais-grid"></div></div>
+        </section>
+        <section id="galeria" class="galeria-section" style="display:none;">
+            <div class="container"><h2>Galeria</h2><div id="galeria-grid" class="galeria-grid"></div></div>
+        </section>
+        <section id="avaliacoes" class="avaliacoes-section" style="display:none;">
+            <div class="container"><h2>O que dizem nossos clientes</h2><div id="avaliacoes-grid" class="avaliacoes-grid"></div></div>
+        </section>
+        <section id="contato" class="contato-section">
+            <div class="container">
+                <h2>Contato</h2>
+                <div class="contato-info">
+                    <p id="endereco-container" style="display:none;"><strong class="contato-label">Endereço:</strong> <span id="endereco-text"></span></p>
+                    <p id="telefone-container" style="display:none;"><strong class="contato-label">Telefone:</strong> <a id="telefone-link" href="#"></a></p>
+                    <p id="whatsapp-container" style="display:none;"><strong class="contato-label">WhatsApp:</strong> <a id="whatsapp-link" href="#" target="_blank" rel="noopener noreferrer"></a></p>
+                </div>
+                <div id="redes-sociais-container" class="redes-sociais-container"></div>
+                <div id="mapa-link-container" class="mapa-link-container"><a id="mapa-link" class="mapa-link" href="#" target="_blank" rel="noopener noreferrer" aria-label="Ver localização da POP no Google Maps">Como chegar <span aria-hidden="true">↗</span></a></div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer"><div class="container"><p id="footer-text"></p></div></footer>
+    <script src="script.js"></script>
+</body>
+</html>
